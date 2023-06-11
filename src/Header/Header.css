@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 120px 50px 0px 70px;
+}
+.greet-h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #5E5E5E;
+    padding: 0;
+    margin: 0 240px 0 0;
+}
+.greet-h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5E5E5E;
+    padding-bottom: 0px;
+    margin: 0;
+}
+.greet-p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF6161;
+    padding: 0;
+    margin: 0;
+}
+.greet{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.greet-txt{
+    display: flex;
+    flex-direction: column;
+}
+.exit a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B47AEA;
+    margin: 0 8px 0 0;
+}
+.exit a:hover{
+    color: #60219c;
+    transition: 0.3s;
+}

@@ -1,0 +1,79 @@
+.container-third{
+    width: 1152px;
+    height: 700px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.content-third{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 140px 320px;
+}
+.input-third{
+    width: 488px;
+    height: 52px;
+    color: #757575;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+    border-color: #1E9CEA;
+    padding-left: 16px;
+    font-size: 15px;
+}
+.new-task-third{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #5D5D5D;
+}
+select{
+    width: 400px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #1E9CEA;
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #858585;
+    margin-bottom: 30px;
+    padding-left: 18px;
+}
+#button1{
+    background: #B47AEA;
+    border-radius: 15px;
+    border: none;
+    padding: 9px 52px 9px 53px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#button2{
+    background: #FFFFFF;
+    border: 1px solid #6C6C6C;
+    border-radius: 15px;
+    padding: 9px 41px 9px 41px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5D5D5D;
+}
+#button1:hover{
+    background-color: #60219c;
+}
+#button2:hover{
+    background-color: #f2f1f1;
+}
+.buttons-third{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+}

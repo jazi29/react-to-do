@@ -1,0 +1,128 @@
+.container-second{
+    width: 1152px;
+    height: 700px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 120px 400px 0px 400px;
+}
+.main-header > div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.button-plus{
+    width: 30px;
+    height: 30px;
+    background-color: #B47AEA;
+    border-radius: 50%;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-plus > .plus{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+}
+.button-plus:hover{
+    background-color: #60219c;
+}
+a:link{
+    text-decoration: none;
+}
+.new-task a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B47AEA;
+    text-decoration: none;
+}
+.new-task a:hover{
+    color: #60219c;
+}
+#status{
+    width: 138px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #1E9CEA;
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+    padding-left: 8px;
+}
+select:hover{
+    background: #f9f6f6;
+}
+#status2{
+    width: 126px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #1E9CEA;
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+    padding-left: 8px;
+}
+label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+:checked + div > label{
+    text-decoration: line-through;
+}
+#vehicle1{
+    width: 25px;
+    height: 25px;
+    background: #1E9CEA;
+    border: 2px solid #1E9CEA;
+    border-radius: 5px;
+}
+.line-second{
+    width: 30px;
+    height: 0px;
+    border: 1px solid #9E9E9E;
+    transform: rotate(90deg);
+}
+.task-second{
+    display: flex;   
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+}
+.content-second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+img:hover{
+    opacity: 50%;
+}

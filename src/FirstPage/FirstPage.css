@@ -1,0 +1,45 @@
+.container-first{
+    width: 1152px;
+    height: 700px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h1-first{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    color: #5E5E5E;
+    padding: 0;
+    margin: 0;
+}
+.first-p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5E5E5E;
+    margin: -7px;
+}
+.letsgo{
+    background: #B47AEA;
+    border-radius: 15px;
+    padding: 8px 29px 8px 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    margin: 40px;
+}
+.letsgo:hover{
+    background: #60219c;
+    transition: 0.3s;
+}
